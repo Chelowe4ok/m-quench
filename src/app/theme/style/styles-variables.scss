@@ -1,0 +1,127 @@
+@import '~@angular/material/theming';
+
+$breakpoints: (
+    "phone":        400px,
+    "phone-wide":   480px,
+    "phablet":      560px,
+    "tablet-small": 640px,
+    "tablet":       768px,
+    "tablet-wide":  1024px,
+    "desktop":      1248px,
+    "desktop-wide": 1440px
+);
+
+$font-sizes: (
+  small: 0.8rem,
+  base: 1rem,
+  root: 62.5%,
+  h1: 2.4rem, // headline
+  h2: 2rem, // title
+  h3: 1.6rem, // subheading
+  h4: 1.4rem, // body
+  h5: 1.3rem,
+  h6: 1.2rem
+);
+
+$colors: (
+  background: #eee,
+  surface: #ffffff,
+  error: #B00020,
+  primary:    #ffffff,
+  secondary:  #32db64
+);
+
+
+$primary-palette: (
+    50 : #e7e9eb,
+    100 : #c2c8cc,
+    200 : #9aa4aa,
+    300 : #718088,
+    400 : #52646f,
+    500 : #344955,
+    600 : #2f424e,
+    700 : #273944,
+    800 : #21313b,
+    900 : #15212a,
+    A100 : #6dbeff,
+    A200 : #3aa7ff,
+    A400 : #0791ff,
+    A700 : #0083ec,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #ffffff,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #ffffff,
+        A700 : #ffffff,
+    )
+);
+
+$accent-palette: (
+    50 : #fef5e7,
+    100 : #fde6c2,
+    200 : #fcd599,
+    300 : #fbc470,
+    400 : #fab752,
+    500 : #f9aa33,
+    600 : #f8a32e,
+    700 : #f79927,
+    800 : #f69020,
+    900 : #f57f14,
+    A100 : #ffffff,
+    A200 : #fff7f1,
+    A400 : #ffdabe,
+    A700 : #ffcca4,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$toolbar-breakpoint: 600px;
+
+$fa-font-path: '../node_modules/@fortawesome/fontawesome-free-webfonts/webfonts';
+
+//$link-hover-decoration: none;
+//$label-margin-bottom: 0;
+$snappy: cubic-bezier(0.694, 0.048, 0.335, 1.000);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$success-colors: mat-palette($mat-green, 400);
+$warning-colors: mat-palette($mat-amber, 400);
+
+%flex {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -ms-inline-flexbox;
+} 
+
+

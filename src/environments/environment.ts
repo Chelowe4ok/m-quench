@@ -3,7 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  appName: 'Quench Development',
+  envName: 'DEV',
+  i18nPrefix: '',
+  firebaseConfig: {
+    apiKey: "AIzaSyBTwuWiJjPHL8uxmqpB5SVQCJlPUKJazPY",
+    authDomain: "m-quench-dev.firebaseapp.com",
+    databaseURL: "https://m-quench-dev.firebaseio.com",
+    projectId: "m-quench-dev",
+    storageBucket: "",
+    messagingSenderId: "173814577836"
+  }
 };
 
 /*

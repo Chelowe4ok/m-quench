@@ -1,0 +1,10 @@
+@import './../style/styles-variables.scss';
+@import './../style/mixins.scss';
+@import '~@angular/material/theming';
+
+$primary: mat-palette($primary-palette);
+$accent: mat-palette($accent-palette);
+$warn: mat-palette($mat-pink, 600);
+
+$default-theme: mat-light-theme($primary, $accent, $warn);
+
